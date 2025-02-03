@@ -24,6 +24,28 @@ console.log(boolenIsLoggedIn);
 //""=>false
 //"Vraj"=>true
 
+let value = 3;
+let negValue = -value;
+console.log(negValue);
+
+let str1="Hello";
+let str2=" Vraj";
+console.log(str1+str2);
+
+console.log("1"+2);
+console.log(1+"2");
+console.log(1+"2" +2);
+console.log("01"+2 +2);
+console.log(1+2 +"2");
+
+console.log(true);
+console.log(+"");
+
+let gameCounter=100;
+// gameCounter++;
+++gameCounter;
+console.log(gameCounter);
+
 let number=33;
 let string=String(number);
 console.log(typeof string);
