@@ -23,3 +23,7 @@ console.log(boolenIsLoggedIn);
 //0=>false
 //""=>false
 //"Vraj"=>true
+
+let number=33;
+let string=String(number);
+console.log(typeof string);
