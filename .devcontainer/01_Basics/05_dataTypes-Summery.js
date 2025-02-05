@@ -29,3 +29,20 @@ console.log(obj);
 //     console.log("Hello");
 // }
 
+//Stack(Primitive),Heap(Non-Primitive)
+
+let myName="Vraj";
+let myAnothername=myName;
+myAnothername="Urvish";
+console.log(myName);
+console.log(myAnothername);
+
+let userOne={
+    email:"abc@gmail.com",
+    upi:"abc@ybl"
+}
+let userTwo=userOne;
+
+userTwo.email="abc@yahoo.com";
+console.log(userOne.email);
+console.log(userTwo.email);
