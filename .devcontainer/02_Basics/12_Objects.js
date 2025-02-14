@@ -61,3 +61,15 @@ console.log(Object.keys(tenderUser));
 console.log(Object.values(tenderUser));
 console.log(Object.entries(tenderUser));
 console.log(Object.hasOwnProperty('name'));
+
+
+let course={
+    courseName:"javaScript",
+    price:"999",
+    courseInstructure:"Hitesh Choudhry"
+}
+
+let {courseInstructure:instructure}=course;
+
+// console.log(courseInstructure);
+console.log(instructure);
