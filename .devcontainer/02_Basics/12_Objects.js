@@ -74,7 +74,7 @@ let {courseInstructure:instructure}=course;
 // console.log(courseInstructure);
 console.log(instructure);
 
-//Important Updates
 
-// console.log("for react")
+
+
 
