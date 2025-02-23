@@ -35,7 +35,7 @@ val1 = null ?? 10 ?? 20
 
 console.log(val1);
 
-// Terniary Operator
+// Terniary Operator //
 
 // condition ? true : false
 
