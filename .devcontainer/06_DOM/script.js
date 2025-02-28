@@ -1,0 +1,2 @@
+let title=document.getElementById("Heading");
+console.log(title.className);
