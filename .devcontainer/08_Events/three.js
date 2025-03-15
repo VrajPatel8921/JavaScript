@@ -11,9 +11,9 @@ const changeNameStop=()=>{
 
 let intervalInfo=setInterval(changeNameStart,2000);
 
+
 document.querySelector("#start").addEventListener('click',()=>{
-    changeNameStart();
-    setInterval(intervalInfo);
+     
 })
 
 document.querySelector("#stop").addEventListener('click',()=>{
