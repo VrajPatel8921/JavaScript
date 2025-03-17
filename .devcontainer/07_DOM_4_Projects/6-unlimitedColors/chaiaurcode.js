@@ -11,3 +11,5 @@ const randomColor=()=>{
 
 document.querySelector('#start').addEventListener('click',stratChanginColor);
 
+
+
